@@ -23,6 +23,8 @@
 /* 01. Google Font */
 
 @import url('https://fonts.googleapis.com/css?family=Mukta:200,300,400,500,600,700,800&amp;subset=devanagari,latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+
 
 /* 02. Typography */
 
@@ -34,7 +36,7 @@ body {
     font-smoothing: antialiased;
 }
 body {
-    font-family: 'Mukta', sans-serif;
+    font-family: 'Nunito', sans-serif;;
     color: #b7b7b7;
     font-weight: 400;
     font-size: 14px;
@@ -45,7 +47,7 @@ body {
     background-color: #242943;
 }
 p {
-    font-family: 'Mukta', sans-serif;
+    font-family: 'Nunito', sans-serif;;
     color: #b7b7b7;
     font-weight: 400;
     font-size: 14px;
@@ -247,7 +249,7 @@ tt,
 var,
 samp,
 pre {
-    font-family: 'Mukta', sans-serif;
+    font-family: 'Nunito', sans-serif;;
     -webkit-hyphens: none;
     hyphens: none;
     -ms-hyphens: none;
@@ -788,7 +790,7 @@ input[type="submit"].button-white:focus {
 }
 
 .portfolio-list li:before {
-    font-family: Themify;
+    /* font-family: Themify; */
     content: "\e628";
     position: absolute;
     left: 0;
@@ -1345,6 +1347,7 @@ input[type="submit"].button-white:focus {
 
     .portfolio-hero-media .owl-carousel .owl-expand a {
         width: 70px;
+        display: none;
     }
 }
 
@@ -1794,7 +1797,7 @@ input[type="submit"].button-white:focus {
     line-height: 1;
     margin-top: 6px;
     font-weight: 700;
-    font-family: 'Mukta', sans-serif;
+    font-family: 'Nunito', sans-serif;;
 }
 
 #portfolio-identity .logo a,
@@ -1915,7 +1918,7 @@ input[type="submit"].button-white:focus {
 }
 
 .portfolio-site-menu-toggle a:before {
-    content: "\e740";
+    /* content: "\e740"; */
     color: #fff;
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
@@ -1931,7 +1934,7 @@ input[type="submit"].button-white:focus {
 }
 
 .portfolio-mobile-menu-opened .portfolio-site-menu-toggle a:before {
-    content: "\e740";
+    /* content: "\e740"; */
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
@@ -2584,7 +2587,7 @@ input[type="submit"].button-white:focus {
 }
 
 .portfolio-additional-menu-content .portfolio-title {
-    font-family: 'Mukta', sans-serif;
+    font-family: 'Nunito', sans-serif;;
     font-size: 24px;
     font-weight: 700;
     text-transform: uppercase;
@@ -2595,7 +2598,7 @@ input[type="submit"].button-white:focus {
 
 .portfolio-additional-menu-content .portfolio-title-small {
     color: #F68338;
-    font-family: 'Mukta', sans-serif;
+    font-family: 'Nunito', sans-serif;;
     text-transform: uppercase;
     font-size: 11px;
     font-weight: 700;
@@ -2767,7 +2770,7 @@ input[type="submit"].button-white:focus {
 .portfolio-my-info p {
     margin: 0;
     font-size: 13px;
-    font-family: 'Mukta', sans-serif;
+    font-family: 'Nunito', sans-serif;;
     padding: 0;
     letter-spacing: 1px;
     color: #F68338;
@@ -3376,7 +3379,7 @@ input[type="submit"].button-white:focus {
 }
 
 .portfolio-content-wrap .portfolio-title {
-    font-family: 'Mukta', sans-serif;
+    font-family: 'Nunito', sans-serif;;
     font-size: 24px;
     line-height: 1.5em;
     font-weight: 700;
@@ -3389,7 +3392,7 @@ input[type="submit"].button-white:focus {
 
 .portfolio-content-wrap .portfolio-title-small {
     color: #F68338;
-    font-family: 'Mukta', sans-serif;
+    font-family: 'Nunito', sans-serif;;
     text-transform: uppercase;
     font-size: 13px;
     font-weight: 700;
@@ -3893,7 +3896,7 @@ ul {
 
 .portfolio-feature .tono-text h3 {
     color: #fff;
-    font-family: 'Mukta', sans-serif;
+    font-family: 'Nunito', sans-serif;;
     font-size: 16px;
     line-height: 1.75em;
     font-weight: 700;
@@ -4015,7 +4018,7 @@ ul {
 .portfolio-timeline > li .portfolio-timeline-content h5 {
     display: block;
     margin: 0 0 5px 0;
-    font-size: 11px;
+    font-size: 15px;
     text-transform: uppercase;
     color: #b7b7b7;
     letter-spacing: 1px;
@@ -4028,7 +4031,7 @@ ul {
 }
 
 .portfolio-timeline > li .portfolio-timeline-content .portfolio-timeline-date {
-    width: 200px;
+    width: 230px;
     position: relative;
     display: inline-block;
     padding: 0 10px;
@@ -4297,7 +4300,14 @@ ul {
     margin-left: 100px;
 }
 .mt-20 {
-    margin-top: 20px;;
+    margin-top: 20px;
+}
+
+.arrow {
+    color: #ffffff;
+    font-size: 0.8em;
+    margin-right: 2em;
+    color: #F68338;
 }
 
 /* animation */
